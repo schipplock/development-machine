@@ -1,0 +1,4 @@
+#!/bin/bash
+echo
+df -hHl --output=source,used,avail,pcent --total /dev/sda1
+echo
